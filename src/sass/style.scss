@@ -6,12 +6,17 @@
 @import 'base/mixins';
 
 * {
-    font-family: sans-serif;
+    font-family: 'Neue Montreal';
+    background-color: black;
 }
 
 .conteiner {
-    max-width: 1220px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
+@import 'blocks/pormo';
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/btn';
 @import 'base/media';

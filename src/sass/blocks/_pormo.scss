@@ -1,0 +1,45 @@
+.promo {
+    min-height: 1020px;
+    padding: 50px 0 90px 0;
+    
+    &__title {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+
+    &__descr {
+        font-weight: 400;
+        font-size: 37px;
+        line-height: 44px;
+        text-align: right;
+        text-transform: uppercase;
+        color: $main_color;
+        span {
+            color: $second_color
+        }
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__img {
+        margin-top: 50px;
+        width: 1240px;
+        height: 400px;
+    }
+
+    &__arrow {
+        margin: 50px auto 0 auto;
+        img {
+            width: 46px;
+            height: 46px;
+        }
+        &:hover {
+            transform: scale(1.1);
+            transition: 1s;
+        }
+    }
+}

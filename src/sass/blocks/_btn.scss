@@ -17,6 +17,15 @@
     }
 
     &_center {
+        display: flex;
+        justify-content: center;
+    }
+
+    &_mt50 {
         margin: 50px auto 0 auto;
+    }
+    
+    &_mt70 {
+        margin: 70px auto 0 auto;
     }
 }

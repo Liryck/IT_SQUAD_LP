@@ -25,6 +25,12 @@
         align-items: center;
         margin-left: 23px;
         @include text;
+        &_ml0 {
+            margin-left: 0;
+        }
+        &_ttu {
+            text-transform: uppercase;
+        }
     }
     &__arrow {
         width: 46px;

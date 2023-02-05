@@ -11,6 +11,7 @@
 }
 
 .conteiner {
+    position: relative;
     max-width: 1240px;
     margin: 0 auto;
 }
@@ -35,4 +36,5 @@
 @import 'blocks/blocks';
 @import 'blocks/stages';
 @import 'blocks/team';
+@import 'blocks/customers';
 @import 'base/media';

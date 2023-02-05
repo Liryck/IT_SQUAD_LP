@@ -1,4 +1,5 @@
 .blocks {
+    position: relative;
     margin-top: 70px;
     width: 1fr;
     min-height: 630px;
@@ -44,5 +45,21 @@
             height: 100%;
             transform: rotate(-135deg);
         }
+    }
+
+    &__img1 {
+        position: absolute;
+        top: 100px;
+        left: 450px;
+        width: 220px;
+        height: 167px;
+    }
+
+    &__img2 {
+        position: absolute;
+        top: 330px;
+        left: 795px;
+        width: 231px;
+        height: 167px;
     }
 }

@@ -28,21 +28,11 @@
             padding-bottom: 0;
         }
     }
-    &__num {
-        min-width: 32px;
-        font-style: italic;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        color: $text_color;
-    }
+    
     &__text {
         padding-left: 19px;
         margin-top: 25px;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 36px;
-        color: $text_color;
+        @include text;
     }
 
 }

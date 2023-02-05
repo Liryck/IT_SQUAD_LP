@@ -1,0 +1,30 @@
+.stages {
+    min-height: 902px;
+    padding: 80px 0;
+
+    &__title {
+        width: 670px;
+    }
+
+    &__wrapper {
+        margin-top: 70px;
+        display: grid;
+        grid-template: repeat(2, minmax(86px, auto)) / repeat(3, 346px);
+        grid-auto-rows: minmax(86px, auto);
+        column-gap: 101px;
+        row-gap: 70px;
+    }
+
+    &__item {
+        hr {
+            width: 100%;
+            height: 1px;
+            color: $hr_color;
+            margin-bottom: 20px;
+        }
+    }
+    &__text {
+        margin-left: 52px;
+        @include text;
+    }
+}

@@ -15,6 +15,15 @@
     margin: 0 auto;
 }
 
+.num {
+    min-width: 32px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $text_color;
+}
+
 @import 'blocks/pormo';
 @import 'blocks/header';
 @import 'blocks/title';
@@ -24,4 +33,5 @@
 @import 'blocks/numbers';
 @import 'blocks/services';
 @import 'blocks/blocks';
+@import 'blocks/stages';
 @import 'base/media';

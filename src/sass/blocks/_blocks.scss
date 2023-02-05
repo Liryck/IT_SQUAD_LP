@@ -20,22 +20,11 @@
         display: flex;
     }
 
-    &__number {
-        font-style: italic;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        color: $text_color;
-    }
     &__name {
         display: flex;
         align-items: center;
         margin-left: 23px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 36px;
-        color: $main_color;
+        @include text;
     }
     &__arrow {
         width: 46px;

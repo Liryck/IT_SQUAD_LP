@@ -19,5 +19,8 @@
     line-height: 48px;
     text-transform: uppercase;
     color: $text_color;
+    &_mt0 {
+        margin-top: 0;
+    }
 }
 

@@ -1,0 +1,11 @@
+.services {
+    min-height: 1148px;
+    padding: 80px 0;
+    
+
+    &__head {
+        display: grid;
+        grid-template-columns: repeat(2, 570px);
+        column-gap: 100px;
+    }
+}

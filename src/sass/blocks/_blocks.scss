@@ -1,0 +1,48 @@
+.blocks {
+    margin-top: 70px;
+    width: 1fr;
+    min-height: 630px;
+    hr {
+        width: 100%;
+        height: 1px;
+        color: $hr_color;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        min-height: 46px;
+        margin: 40px 0;
+    }
+
+    &__textarea {
+        display: flex;
+    }
+
+    &__number {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: $text_color;
+    }
+    &__name {
+        display: flex;
+        align-items: center;
+        margin-left: 23px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: $main_color;
+    }
+    &__arrow {
+        width: 46px;
+        height: 46px;
+        img {
+            width: 100%;
+            height: 100%;
+            transform: rotate(-135deg);
+        }
+    }
+}
